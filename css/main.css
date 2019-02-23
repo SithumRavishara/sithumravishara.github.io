@@ -1109,8 +1109,8 @@ header .top-bar {
 header .logo {
 	float: left;
 	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
 	position: relative;
 }
 header .logo a {
@@ -1121,9 +1121,9 @@ header .logo a {
 	border: none;
 	font: 0/0 a;
 	text-shadow: none;
-	width: 92px;
-	height: 25px;
-	background: url(../images/logo.jpg) no-repeat center;
+	width: 120px;
+	height: 38px;
+	background: url(../images/Main-logo.jpg) no-repeat center;
 	background-size: cover;
 }
 
