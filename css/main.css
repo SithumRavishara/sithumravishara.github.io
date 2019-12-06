@@ -1099,11 +1099,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	color: transparent;
+	/* background: #000000; */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
 	top: 0;
 }
 header .logo {
@@ -1208,13 +1208,13 @@ header .logo a {
 	transition-delay: 0s, 0.2s;
 }
 .menu-toggle.is-clicked span::before {
-	top: 0;
+	left: 0;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 .menu-toggle.is-clicked span::after {
-	bottom: 0;
+	right: 0;
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
